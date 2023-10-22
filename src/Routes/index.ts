@@ -7,6 +7,7 @@ router.get('/', pagesControllers.home)
 router.get('/cachorro' , pagesControllers.cachorro)
 router.get('/gato' , pagesControllers.gato)
 router.get('/peixe' , pagesControllers.peixe)
+router.get('/serche' , sercheControllers.serche)
 
 
 export default router;
